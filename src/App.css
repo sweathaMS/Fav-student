@@ -1,0 +1,68 @@
+.list-item {
+  display: flex;
+  justify-content: space-between; /* Space out the items */
+  align-items: center; /* Vertically center items */
+  padding: 10px;
+  border-bottom: 1px solid #ddd; /* Add a bottom border for separation */
+}
+
+.button {
+  padding: 5px 10px; /* Adjust padding for better appearance */
+  background-color: #ff4757; /* Change color to indicate removal */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #e84118; /* Darker shade on hover */
+}
+
+@media (max-width: 600px) {
+  .list-item {
+    flex-direction: column; /* Stack items on small screens */
+    align-items: flex-start; /* Align items to the start */
+  }
+  
+  .button {
+    width: 100%; /* Make button full width */
+    margin-top: 5px; /* Add some space above the button */
+  }
+}
+.list-item {
+  display: flex;
+  justify-content: space-between; /* Space out the items */
+  align-items: center; /* Vertically center items */
+  padding: 10px;
+  border-bottom: 1px solid #ddd; /* Add a bottom border for separation */
+}
+
+.button {
+  padding: 5px 10px; /* Adjust padding for better appearance */
+  background-color: #007bff; /* Change color for the button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+@media (max-width: 600px) {
+  .list-item {
+    flex-direction: column; /* Stack items on small screens */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .button {
+    width: 100%; /* Make button full width */
+    margin-top: 5px; /* Add some space above the button */
+  }
+}
+
+
